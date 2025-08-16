@@ -20,5 +20,11 @@ f(x,y) = (x+10)^2 * (y-2)^2 + (x-8)^2 * (y+3)^2 + 10
 -   Higher gradient might overshoot and we cant reach the convergence point.
 
 - To get the optimal convergence there are a few techniques:
--   [a] clipping the gradient : Put the threshold value, if the differentiation of the function overshoots and move above threshold then move to threshold value. 
+-   [a] clipping the gradient : Put the threshold value, if the differentiation of the function overshoots and move above threshold then move to threshold value.
+
+[1.4] Discussed 4 methods to find the minimal: 
+- Brute force method (extremely costly)
+- Gradient free
+- Nedler Mead
+- Gradient Decend
 
