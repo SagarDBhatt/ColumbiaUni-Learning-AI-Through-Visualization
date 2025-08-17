@@ -28,3 +28,9 @@ f(x,y) = (x+10)^2 * (y-2)^2 + (x-8)^2 * (y+3)^2 + 10
 - Nedler Mead
 - Gradient Decend
 
+[1.5] OPTIMIZATION OF THE FUNCTION
+
+- Professor used the jupiter notebook and put above mentioned 2 funnctions and defined the starting points, gradient (aka learning rate) and clipping (threshold).
+- Then used the numpy to show the visualization of moving the point to reach the minimal value of the function.
+- Then, we fine tune the parameteres to check how we can reach the minimal point on visualization.
+- This exercise's goal is to teach how the different parameter help us to reach the goal (minimal point of slope) of the 2-dimentional function. How to optimize the parameter to make the function less expensive / more optimized. 
